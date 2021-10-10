@@ -74,16 +74,43 @@
       align-content: center;
       align-items: center;
     }
-    .name {}
-    .contacts {}
-    .short_info {}
+    .name { padding: 1vh 2vh;}
+    .contacts { padding: 1vh 2vh; }
+    .short_info { padding: 1vh 2vh; }
     .expirience {padding: 1.5vw;}
     .about {padding: 1.5vw;}
     .about p {
+      padding: 1vh 2vh;
       text-align: justify;
       line-height: 2.5vh;
     }
     .education {padding: 1.5vw;}
+    .education p {
+      padding: 1vh 2vh;
+    }
+    .progress-bar {
+      display: flex;
+      width: 100%;
+      height: 2vh;
+    }
+    .progress-bar__skills {
+      text-align: right;
+      padding-top: 0.5vh;
+      padding-bottom: 0.5vh;
+      color: white;
+    }
+    .sf {
+        width: 74%;
+        background-color: #bcf84d;
+        height: 1vh;
+        }
+    .completed {
+        width: 100%; 
+        background-color: #04AA6D;
+        height: 1vh;
+        }
+
+
     .language {padding: 1.5vw;}
     .courses {padding: 1.5vw;}
 
