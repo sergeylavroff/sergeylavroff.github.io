@@ -74,7 +74,12 @@
       align-content: center;
       align-items: center;
     }
-    .name { padding: 1vh 2vh;}
+    .name { 
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1vh 2vh;
+    }
     .contacts { padding: 1vh 2vh; }
     .short_info { padding: 1vh 2vh; }
     .expirience {padding: 1.5vw;}
