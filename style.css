@@ -54,6 +54,10 @@
         "contacts expirience expirience expirience language language";
       }
       .gradient{ background: linear-gradient(to right, rgb(4, 191, 166), white);}
+      .courses, .language, .education {
+        background-color: rgb(4, 191, 166, 0.3);
+        border-left: 3px solid darkgray;
+      }
     }
   
     .grid .about  { grid-area: about; }
