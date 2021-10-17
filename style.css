@@ -55,7 +55,7 @@
       }
       .gradient{ background: linear-gradient(to right, rgb(4, 191, 166), white);}
       .courses, .language, .education {
-        background-color: rgb(4, 191, 166, 0.3);
+        background-color: rgba(176, 180, 180, 0.507);
         border-left: 3px solid darkgray;
       }
     }
