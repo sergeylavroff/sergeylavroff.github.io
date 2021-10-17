@@ -87,7 +87,7 @@
     .about p {
       padding: 1vh 2vh;
       text-align: justify;
-      line-height: 3vh;
+      line-height: 1.5em;
     }
     .education {padding: 1.5vw;}
     .education p {
