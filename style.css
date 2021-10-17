@@ -40,7 +40,7 @@
           "contacts courses courses courses"
           "contacts language language language";
       }
-      .gradient{ background: linear-gradient(to right, rgb(4, 191, 166), white);}
+      .gradient{ background: linear-gradient(to right, rgba(4, 191, 166, 0.603), white);}
     }
   
     @media screen and (min-width: 1400px) {
@@ -53,7 +53,7 @@
         "contacts expirience expirience expirience education education"
         "contacts expirience expirience expirience language language";
       }
-      .gradient{ background: linear-gradient(to right, rgb(4, 191, 166), white);}
+      .gradient{ background: linear-gradient(to right, rgba(4, 191, 166, 0.61), white);}
       .courses, .language, .education {
         background-color: rgba(176, 180, 180, 0.507);
         border-left: 3px solid darkgray;
@@ -166,16 +166,6 @@
       top: 15px;
       border-radius: 50%;
       z-index: 1;
-    }
-
-    /* Place the container to the left */
-    .left {
-      left: 0;
-    }
-
-    /* Place the container to the right */
-    .right {
-      /* left: 50%; */
     }
 
     /* Add arrows to the left container (pointing right) */
